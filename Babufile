@@ -36,7 +36,7 @@ pipeline {
             }
     stage('Push the Docker image') {
       steps {
-        sh 'docker push mohankumar12/insure-me-app:1.0'
+        sh 'docker push mohankumar12/insure-me-app:4.0'
                                 }
             }
     stage('Ansbile config and Deployment') {
